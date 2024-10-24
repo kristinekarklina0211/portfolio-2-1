@@ -1,0 +1,54 @@
+.hero {
+  padding-bottom: 94px;
+}
+
+.hero__paragraph {
+  margin-bottom: 29px;
+  padding-left: 6px;
+
+  max-width: 430px;
+
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.hero__title {
+  max-width: 980px;
+  padding: 15px 30px 30px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+@media (max-width: 961px) {
+  .hero {
+    padding-bottom: 60px;
+  }
+
+  .hero__paragraph {
+    padding-left: 5px;
+  }
+
+  .hero__title {
+    max-width: 727px;
+    padding: 10px 20px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__paragraph {
+    margin-bottom: 10px;
+    padding-left: 2px;
+
+    max-width: 310px;
+
+    font-size: 15px;
+    letter-spacing: -0.45px;
+  }
+
+  .hero__title {
+    max-width: 353px;
+    padding: 10px 25px 25px;
+  }
+}

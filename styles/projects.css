@@ -1,0 +1,206 @@
+.projects {
+  margin-bottom: 150px;
+}
+
+.projects__inner {
+  padding-top: 150px;
+}
+
+.projects__title {
+  margin-left: -5px;
+  margin-bottom: 40px;
+}
+
+.projects__list {
+  margin-bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__item {
+  position: relative;
+  width: 100%;
+  height: 550px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.projects__category-wrapper {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+}
+
+.projects__category-box {
+  padding: 10px 20px;
+  background: #1bff07;
+  border-radius: 100px;
+}
+
+.projects__category-text {
+  color: #000;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.projects__item-text-wrapper {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects__item-title {
+  margin-bottom: 5px;
+  
+  font-size: 35px;
+  line-height: normal;
+  letter-spacing: -1.05px;
+}
+
+.projects__item-text {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.metrika {
+  background-image: url("../resources/projects_metrika.png");
+}
+
+.nothing {
+  background-image: url("../resources/projects_nothing.png");
+}
+
+.toptrip {
+  background-image: url("../resources/projects_toptrip.png");
+}
+
+@media (max-width: 961px) {
+  .projects__title {
+    margin-bottom: 53px;
+  }
+  
+  .projects__list {
+    margin-bottom: 64px;
+  }
+  
+  .projects__item {
+    height: 445px;
+  }
+  
+  .projects__category-wrapper {
+    top: 40px;
+    left: 35px;
+  }
+  
+  .projects__category-box {
+    padding: 8px 16px;
+    border-radius: 81px;
+  }
+  
+  .projects__category-text {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+  
+  .projects__item-text-wrapper {
+    left: 40px;
+    bottom: 40px;
+  }
+  
+  .projects__item-title {
+    font-size: 28px;
+    letter-spacing: -0.84px;
+  }
+  
+  .projects__item-text {
+    font-size: 24px;
+    letter-spacing: -0.72px;
+  }
+  
+  .metrika {
+    background-image: url("../resources/projects_metrika_tablet.png");
+  }
+  
+  .nothing {
+    background-image: url("../resources/projects_nothing_tablet.png");
+  }
+  
+  .toptrip {
+    background-image: url("../resources/projects_toptrip_tablet.png");
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .projects {
+    margin-bottom: 100px;
+  }
+  
+  .projects__inner {
+    padding-top: 100px;
+  }
+  
+  .projects__title {
+    margin-left: -2px;
+    margin-bottom: 34px;
+  }
+  
+  .projects__list {
+    margin-bottom: 60px;
+    gap: 10px;
+  }
+  
+  .projects__item {
+    height: 445px;
+  }
+  
+  .projects__category-wrapper {
+    top: 30px;
+    left: 33px;
+  }
+  
+  .projects__category-box {
+    padding: 7px 13px;
+    border-radius: 65px;
+  }
+  
+  .projects__category-text {
+    font-size: 13px;
+    letter-spacing: -0.39px;
+  }
+  
+  .projects__item-text-wrapper {
+    left: 35px;
+    bottom: 50px;
+  }
+  
+  .projects__item-title {
+    font-size: 28px;
+    letter-spacing: -0.84px;
+  }
+  
+  .projects__item-text {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+  
+  .metrika {
+    background-image: url("../resources/projects_metrika_mobile.png");
+  }
+  
+  .nothing {
+    background-image: url("../resources/projects_nothing_mobile.png");
+  }
+  
+  .toptrip {
+    background-image: url("../resources/projects_toptrip_mobile.png");
+  }
+}

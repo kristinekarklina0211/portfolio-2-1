@@ -1,0 +1,129 @@
+.contacts {
+  margin-bottom: 10px;
+
+  height: 717px;
+
+  background: #191c19;
+
+  background-image: url("../resources/contacts.png");
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  border-radius: 30px;
+}
+
+.contacts__text-wrapper {
+  padding: 100px 0;
+}
+
+.contacts__title {
+  margin-bottom: 60px;
+
+  max-width: 553px;
+
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+.contacts__input-wrapper {
+  margin-bottom: 60px;
+}
+
+.contacts__input {
+  display: block;
+  margin-bottom: 26px;
+
+  padding: 16px 0 15px 40px;
+  width: 567px;
+  border-radius: 1000px;
+  background-color: #3B3D3B;
+  border: 1px solid #3B3D3B;
+
+  color: #FFF;
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+}
+
+.contacts__input::placeholder {
+  color: #FFF;
+  opacity: 0.5;
+}
+
+@media (max-width: 961px) {
+  .contacts {
+    margin-bottom: 7px;
+    height: 484px;
+    background-image: url("../resources/contacts_tablet.png");
+    border-radius: 20px;
+  }
+  
+  .contacts__text-wrapper {
+    padding: 50px 0 86px 0;
+  }
+  
+  .contacts__title {
+    margin-bottom: 40px;
+  
+    max-width: 373px;
+  
+    font-size: 40px;
+    line-height: 40.5px;
+    letter-spacing: -1.2px;
+  }
+  
+  .contacts__input-wrapper {
+    margin-bottom: 40px;
+  }
+  
+  .contacts__input {
+    margin-bottom: 17px;
+  
+    padding: 10px 0 10px 24px;
+    width: 383px;
+    border-radius: 675px;
+  
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    margin-bottom: 0;
+    height: 428px;
+    background-image: none;
+    border-radius: 19px;
+  }
+  
+  .contacts__text-wrapper {
+    padding: 50px 0 40px 0;
+  }
+  
+  .contacts__title {
+    margin-bottom: 40px;
+  
+    max-width: 310px;
+  
+    font-size: 35px;
+    line-height: 37px;
+    letter-spacing: -1.05px;
+  }
+  
+  .contacts__input-wrapper {
+    margin-bottom: 40px;
+  }
+  
+  .contacts__input {
+    margin-bottom: 15px;
+  
+    padding: 10px 0 8px 21px;
+    width: 100%;
+    border-radius: 622px;
+  
+    font-size: 15px;
+    letter-spacing: -0.45px;
+  }
+}

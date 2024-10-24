@@ -1,0 +1,152 @@
+.competencies {
+  margin-bottom: 150px;
+}
+
+.competencies__title {
+  margin-bottom: 80px;
+}
+
+.competencies__box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+
+.competencies__box {
+  width: calc(50% - 24px);
+}
+
+.competencies__box-title {
+  margin-bottom: 15px;
+
+  color: #1bff07;
+  font-size: 35px;
+  line-height: normal;
+  letter-spacing: -1.05px;
+}
+
+.competencies__box-text {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+}
+
+.competencies__box-title:before {
+  margin-bottom: 15px;
+
+  content: "";
+  display: block;
+
+  width: 45px;
+  height: 44px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.html:before {
+  background-image: url("../resources/html_icon.png");
+}
+
+.javascript:before {
+  background-image: url("../resources/js_icon.png");
+}
+
+.frameworks:before {
+  background-image: url("../resources/framework_icon.png");
+}
+
+.mob-dev:before {
+  background-image: url("../resources/dev_icon.png");
+}
+
+@media (max-width: 961px) {
+  .competencies__title {
+    margin-bottom: 60px;
+  }
+
+  .competencies__box-wrapper {
+    row-gap: 36px;
+  }
+
+  .competencies__box {
+    width: calc(50% - 19px);
+  }
+
+  .competencies__box-title {
+    margin-bottom: 13px;
+
+    font-size: 28px;
+    letter-spacing: -0.84px;
+  }
+
+  .competencies__box-text {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+  }
+
+  .competencies__box-title:before {
+    margin-bottom: 10px;
+
+    width: 36px;
+    height: 36px;
+  }
+
+  .html:before {
+    background-image: url("../resources/html_icon_tablet.png");
+  }
+
+  .javascript:before {
+    background-image: url("../resources/js_icon_tablet.png");
+  }
+
+  .frameworks:before {
+    background-image: url("../resources/framework_icon_tablet.png");
+  }
+
+  .mob-dev:before {
+    background-image: url("../resources/dev_icon_tablet.png");
+  }
+}
+
+@media (max-width: 767px) {
+  .competencies {
+    margin-bottom: 100px;
+  }
+
+  .competencies__title {
+    margin-bottom: 60px;
+  }
+
+  .competencies__box-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  .competencies__box {
+    width: 100%;
+  }
+
+  .competencies__box-title {
+    margin-bottom: 15px;
+  }
+
+  .html:before {
+    background-image: url("../resources/html_icon_mobile.png");
+  }
+
+  .javascript:before {
+    background-image: url("../resources/js_icon_mobile.png");
+  }
+
+  .frameworks:before {
+    background-image: url("../resources/framework_icon_mobile.png");
+  }
+
+  .mob-dev:before {
+    background-image: url("../resources/dev_icon_mobile.png");
+  }
+}

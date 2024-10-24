@@ -1,0 +1,91 @@
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button {
+  background: #1bff07;
+  border: 1px solid #1bff07;
+
+  color: #000;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #000;
+  border: 1px solid #1bff07;
+  color: #1bff07;
+}
+
+/* Projects */
+
+.projects__btn {
+  display: inline-block;
+  padding: 57px 85px;
+  border-radius: 10px;
+
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+
+/* Contacts */
+
+.contacts__btn {
+  display: inline-block;
+  width: 450px;
+  padding: 20px;
+  border-radius: 10px;
+
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}
+
+@media (max-width: 961px) {
+  .button {
+    border-radius: 8px;
+  }
+
+  .projects__btn {
+    padding: 45px 68px;
+
+    border-radius: 8px;
+
+    font-size: 24px;
+    letter-spacing: -0.7px;
+  }
+
+  .contacts__btn {
+    width: 304px;
+    padding: 13px;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    padding: 28px 52px;
+
+    font-size: 18px;
+    letter-spacing: -0.54px;
+
+    border-radius: 8px;
+  }
+
+  .contacts__btn {
+    display: block;
+    width: 100%;
+    padding: 12px 49px;
+
+    font-size: 15px;
+    letter-spacing: -0.45px;
+  }
+}
