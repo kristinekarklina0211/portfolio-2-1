@@ -83,6 +83,10 @@
 }
 
 @media (max-width: 961px) {
+  .projects {
+    width: 100%;
+  }
+  
   .projects__title {
     margin-bottom: 53px;
   }
@@ -136,7 +140,6 @@
   .toptrip {
     background-image: url("../resources/projects_toptrip_tablet.png");
   }
-  
 }
 
 @media (max-width: 767px) {

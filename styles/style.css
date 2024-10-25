@@ -58,6 +58,10 @@ h2 {
     width: 100%;
   }
   
+  .background-image {
+    width: 100%;
+  }
+  
   h1 {
     font-size: 60px;
     letter-spacing: -1.8px;
@@ -74,13 +78,17 @@ h2 {
     width: 100%;
     padding: 0 12px 0 13px;
   }
-
+  
+  .background-image {
+    width: 100%;
+  }
+  
   h1 {
     font-size: 40px;
     line-height: 47px;
     letter-spacing: -1.2px;
   }
-
+  
   h2 {
     font-size: 30px;
     letter-spacing: -0.9px;
