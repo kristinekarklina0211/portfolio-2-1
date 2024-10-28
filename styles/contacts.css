@@ -75,15 +75,15 @@
     line-height: 40.5px;
     letter-spacing: -1.2px;
   }
-  
+
   .contacts__input-wrapper {
     margin-bottom: 40px;
     gap: 17px;
   }
-  
+
   .contacts__input {
     padding: 10px 0 10px 24px;
-    width: 383px;
+    max-width: 383px;
     border-radius: 675px;
   
     font-size: 16px;
@@ -113,15 +113,13 @@
     line-height: 37px;
     letter-spacing: -1.05px;
   }
-  
+
   .contacts__input-wrapper {
-    margin-bottom: 40px;
     gap: 15px;
   }
   
   .contacts__input {
     padding: 10px 0 10px 21px;
-    width: 100%;
     border-radius: 622px;
   
     font-size: 15px;
