@@ -59,7 +59,7 @@ h2 {
   }
   
   .background-image {
-    width: 100%;
+    background-image: url("../resources/hero_image_tablet.jpg");
   }
   
   h1 {
@@ -75,17 +75,16 @@ h2 {
 
 @media (max-width: 767px) {
   .container {
-    width: 100%;
     padding: 0 12px 0 13px;
   }
   
   .background-image {
-    width: 100%;
+    background-image: url("../resources/hero_image_mobile.jpg");
   }
   
   h1 {
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 48px;
+    line-height: 48px;
     letter-spacing: -1.2px;
   }
   
